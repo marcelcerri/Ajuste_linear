@@ -41,6 +41,7 @@ f.set_figwidth(8)
 ax.legend(loc=0)                                                   
 f.patch.set_facecolor('white')                                       
 plt.style.use('default') 
+plt.savefig('Linearizacao.png')  
 plt.show()   
 #Estimando o coeficiente de determinação
 yresid = y - modelo_y
