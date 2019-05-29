@@ -12,6 +12,7 @@ y = np.array([5, 20, 14, 32, 22, 38])
 model = LinearRegression()
 model.fit(x, y)
 model = LinearRegression().fit(x, y)
+#cálculo de R2
 r_sq = model.score(x, y)
 print('coefficient of determination:', r_sq)
 print('intercept:', model.intercept_)
